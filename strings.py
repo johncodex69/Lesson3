@@ -50,12 +50,17 @@
 # name[1:9 + 1]
 # print(name[3:])
 
+#Question 2
+# words = input("Enter words:")
+
+# def my_function(words):
+#     print(len(words))
+
+# my_function(words)
+
+
 #Write a program to tell which one is gmail.com
 
-name1 = "ngangaalvis@gmail.com"
-name2 = "bob123@yahoo.c0m"
-name3 = "chriskyle@gmail.com"
-
-name1["n: m" + 1]
-name1["n: m" + 1]
-print(name1[11:])
+# name1 = "ngangaalvis@gmail.com"
+# name2 = "bob123@yahoo.c0m"
+# name3 = "chriskyle@gmail.com"
