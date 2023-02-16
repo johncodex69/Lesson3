@@ -64,3 +64,13 @@
 # name1 = "ngangaalvis@gmail.com"
 # name2 = "bob123@yahoo.c0m"
 # name3 = "chriskyle@gmail.com"
+
+user_email = input("Enter your email:")
+
+print(user_email[-10:])
+
+if user_email == "@gmail.com":
+    print("Correct gmail")
+else:
+    print("Incorrect gmail")
+ 

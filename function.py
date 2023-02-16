@@ -27,3 +27,31 @@
 # print(value)
 # value = value1 / value2
 # print(value)
+
+# def add_nums():
+#     print("My_function")
+# add_nums()
+# add_nums()
+# add_nums()
+
+# def add_nums(a, b):
+#     result = a + b
+#     print(result)
+# add_nums(2, 3)
+# #or
+# add_nums(a=2, b=3)
+
+# def add_nums(a, b):
+#     sales = a + b
+#     print(sales)
+# add_nums(20, 30)
+
+#Exercise
+# username1 = input("Enter first name:")
+# username2 = input("Enter second name:")
+# username = username1 + username2
+
+# def add_names(username):
+
+#     print("Hello there", username1, username2)
+# add_names(username)
