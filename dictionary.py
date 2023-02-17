@@ -22,9 +22,70 @@ car = {
 # #Accessing dictionary items
 # print(car["year"])
 
-person = {
-    "name" : "Kathy",
-    "age" : 27,
-    "pets" : ["dog", "cat"]
-}
-print(person["pets"])
+# person = {
+#     "name" : "Kathy",
+#     "age" : 27,
+#     "pets" : ["dog", "cat"]
+# }
+# # Accessing dictionary
+
+# # print(person["pets"])
+
+# person["pets"][0]
+# print(person["pets"][0])
+
+# person = {
+#     "name" : "Kathy",
+#     "age" : 27,
+#     "pets" : {
+#         "dog" : "x",
+#         "cat" : "y"
+#     }
+# }
+# print(person["pets"])
+# print(person["pets"]["cat"])
+
+# #Integer keys
+# teams = {
+#     23 : "a",
+#     56.67 : [34, 453, 87]
+
+# }
+# print(teams[56.67])
+
+# profile = {}
+# profile["username"] = "user123"
+# profile["age"] = 26
+# profile["email"] = "123prosporous@gmail.com"
+
+# print(profile)
+
+profile = {}
+
+def sign_up():
+#Ask for username
+    username = input("Enter username:")
+#Ask for email
+    email = input("Enter email:")
+#Ask for password
+    password = input("Enter password:")
+
+#Store in dictionary
+    profile["username"] = username
+    profile["email"] = email
+    profile["passsword"] = password
+
+sign_up()
+
+def get_profile():
+    print(profile)
+
+def change_username():
+    new_username = input("Enter new_username:")
+    profile["username"] = new_username
+
+sign_up()
+get_profile()
+
+change_username()
+get_profile()
