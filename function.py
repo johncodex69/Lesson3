@@ -55,3 +55,12 @@
 
 #     print("Hello there", username1, username2)
 # add_names(username)
+
+#Scoping - don't use a code outside its function
+av = 56
+
+def average(a, b):
+    av = (a + b) /2
+    return av
+
+print(av)
