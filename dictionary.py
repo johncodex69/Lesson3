@@ -12,12 +12,12 @@
 # print(cars["cars2"])
 
 
-car = {
-    "model" : "ford",
-    "year" : 1998,
-    "color" : "red",
-    "country" : "States"
-}
+# car = {
+#     "model" : "ford",
+#     "year" : 1998,
+#     "color" : "red",
+#     "country" : "States"
+# }
 
 # #Accessing dictionary items
 # print(car["year"])
@@ -60,32 +60,50 @@ car = {
 
 # print(profile)
 
-profile = {}
+# profile = {}
 
-def sign_up():
-#Ask for username
-    username = input("Enter username:")
-#Ask for email
-    email = input("Enter email:")
-#Ask for password
-    password = input("Enter password:")
+# def sign_up():
+# #Ask for username
+#     username = input("Enter username:")
+# #Ask for email
+#     email = input("Enter email:")
+# #Ask for password
+#     password = input("Enter password:")
 
-#Store in dictionary
-    profile["username"] = username
-    profile["email"] = email
-    profile["passsword"] = password
+# #Store in dictionary
+#     profile["username"] = username
+#     profile["email"] = email
+#     profile["passsword"] = password
 
-sign_up()
+# sign_up()
 
-def get_profile():
-    print(profile)
+# def get_profile():
+#     print(profile)
 
-def change_username():
-    new_username = input("Enter new_username:")
-    profile["username"] = new_username
+# def change_username():
+#     new_username = input("Enter new_username:")
+#     profile["username"] = new_username
 
-sign_up()
-get_profile()
+# sign_up()
+# get_profile()
 
-change_username()
-get_profile()
+# change_username()
+# get_profile()
+
+months = {"January" : 31,
+           "February" : 29,
+           "March" : 31,
+           "April" : 30,
+           "May" : 31,
+           "June" : 30,
+           "July" : 31,
+           "August" : 31,
+           "September" : 30,
+           "October" : 31,
+           "November" : 30,
+           "December" : 31  
+}
+
+# days_of_month = input("Enter month:")
+# print(months[days_of_month])
+
